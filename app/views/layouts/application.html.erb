@@ -17,7 +17,18 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <div class="card d-flex align-self-center border-0" >
+      <% if user_signed_in?%>
+        <%= button_to 'Sign Out', "/users/sign_out", method: :delete %>
+      <% end %>
       <div class="card-body align-self-center border-3 border border-light rounded-3 my-3 pb-auto shadow-lg container-width" style="max-width: 575px">
+        <nav class="navbar navbar-dark bg-primary bg-gradient shadow">
+          <div class="container-fluid d-flex justify-content-space-between">
+          <%= link_to '<', "/", class: 'fs-5 navbar-toggler text-decoration-none' %>
+            <a class="navbar-brand fs-1" href="#"><%= yield :title %></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
         <%= yield %>
       </div>
     </div>
