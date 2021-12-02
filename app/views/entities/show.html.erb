@@ -8,7 +8,7 @@
     </div>
   </div>
   <% if @group.group_entities.empty? %>
-      <p class="text-muted fs-5 py-3 ps-4">No transactions found in this category.</p>
+    <p class="text-muted fs-5 py-3 ps-4">No transactions found in this category.</p>
   <% end %>
   <% if @group.user_id == @user %>
     <% @group.group_entities.reverse_order.each do |entity|%>
@@ -36,5 +36,5 @@
   <% end %>
 </div>
 <div class="bg-success d-flex justify-content-center">
-  <%= button_to "Add New Transaction", entity_new_path(), method: :get, class: 'btn btn-success px-4 py-2 m-4 border-white border-2 rounded-3 fs-3' %>
+  <%= button_to "Add New Transaction", "/entities/new", method: :get, class: 'btn btn-success px-4 py-2 m-4 border-white border-2 rounded-3 fs-3' %>
 </div>
