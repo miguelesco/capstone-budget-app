@@ -16,7 +16,7 @@
               </div>
               <div class="col-6 d-flex align-items-center">
                 <div class="card-body ">
-                  <%= link_to group.name, entities_path(user_id: @user, id: group.id), class: 'card-title text-secondary fs-4' %>
+                  <%= link_to group.name, "/entities/#{group.id}", class: 'card-title text-secondary fs-4' %>
                   <p class="card-text mt-4 text-black-50"><%= group.created_at.strftime("%d %b %Y") %></p>
                 </div>
               </div>
