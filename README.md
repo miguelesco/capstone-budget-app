@@ -4,6 +4,14 @@ This a Ruby on Rails based budget app, an interactive project where you can add 
 
 ![imagen](/Screenshot.png)
 
+## Video DEMO
+
+https://www.loom.com/share/2e7beec865ab4f9b9872054b887557bb
+
+## Link Demo
+
+https://floating-brushlands-75570.herokuapp.com/
+
 ## Built With
 
 - ![Ruby](https://img.shields.io/badge/Ruby-20232A?style=for-the-badge&logo=ruby&logoColor=61DAFB)
