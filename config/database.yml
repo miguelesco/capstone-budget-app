@@ -83,5 +83,5 @@ test:
 production:
   <<: *default
   database: budget
-  username: hellorails
-  password: <%= ENV['HELLORAILS_DATABASE_PASSWORD'] %>
+  username: <%= ENV['MY_NAME'] %>
+  password: <%= ENV['MY_PASSWORD'] %>
