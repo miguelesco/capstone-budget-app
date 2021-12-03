@@ -386,6 +386,7 @@ DEPENDENCIES
   shoulda (~> 4.0)
   slack-notifier
   spring
+  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
