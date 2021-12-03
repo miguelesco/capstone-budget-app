@@ -14,8 +14,8 @@ RSpec.describe 'In categories page', type: :feature do
   describe 'I can see' do
     it 'That is not transactions' do
       visit '/users/sign_in'
-      fill_in "user_email", with: 'user1@mail.com'
-      fill_in "user_password", with: '111111'
+      fill_in 'user_email', with: 'user1@mail.com'
+      fill_in 'user_password', with: '111111'
       click_on 'Log in'
       visit '/entities/1'
       expect(page).to have_content('No transactions found in this category')
@@ -25,7 +25,5 @@ RSpec.describe 'In categories page', type: :feature do
       visit '/users/sign_in'
       expect(page).to have_link('<')
     end
-
   end
-
 end

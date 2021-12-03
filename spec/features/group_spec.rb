@@ -34,5 +34,4 @@ RSpec.describe 'In categories page', type: :feature do
       expect(page).to have_content('All Categories:')
     end
   end
-
 end
