@@ -15,15 +15,13 @@ class EntitiesController < ApplicationController
     @entity = Entity.new
     if params[:entity][:group_ids].nil?
       flash[:alert] = 'Please choose a category'
-      redirect_to "/entities/new"
+      redirect_to '/entities/new'
     else
       @entity.name = params[:entity][:name]
       @entity.amount = params[:entity][:amount]
       @entity.user_id = current_user.id
 
-      binding.pry
       if @entity.save
-        binding.pry
         params[:entity][:group_ids].each do |group_entity|
           @group_entity = GroupEntity.new
           @group_entity.entity_id = @entity.id
