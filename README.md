@@ -1,6 +1,6 @@
-# Recipe App
+# Budget App
 
-The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app allows you to make them public so anyone can access them.
+This a Ruby on Rails based budget app, an interactive project where you can add categories and transactions with user registration and login features.
 
 ![imagen](/Screenshot.png)
 
@@ -74,16 +74,11 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It w
 - GitHub: [@miguelesco](https://github.com/miguelesco)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/miguelangel-escorche-delgado-9a2956163/)
 
-👤 **Ricardo R**
-
-- GitHub: [@Richie9000](https://github.com/Richie9000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ricardorodr/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/miguelesco/recipe-app/issues).
+Feel free to check the [issues page](https://github.com/miguelesco/capstone-budget-app/issues).
 
 ## Show your support
 
