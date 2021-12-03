@@ -66,14 +66,29 @@ https://floating-brushlands-75570.herokuapp.com/
    rspec spec/* --format doc
    ```
 
-## Acknowledgements
+## Learning objectives
 
-- Use controllers to handle requests and render empty views.
+- Use ruby gems as software packages system.
 - Install Ruby on Rails framework.
-- Use Ruby Gems as a software packages system.
-- Understand Rails naming conventions.
-- Use params from browser requests in a safe way.
-- Write tests for controllers.
+- Understand Rails RESTful design and router.
+- Use controllers to handle requests and render empty views.
+- Use params from browser request in a safe way.
+- Use preprocessed html file with embedded Ruby code.
+- Use layouts and templates for shared content.
+- Use database migration files to maintain database schema.
+- Use validations for models.
+- Secure app from n+1 problems.
+- Understand what ORM is.
+- Write SQL queries with ActiveRecord.
+- Set up associations between models.
+- Build a webapp that requires the user to log in.
+- Use devise gem for authentication.
+- Limit access to webapp resources based on authorization rules.
+- Analyze in writing why you have made a coding choice using one structure over another.
+
+## Outknowledge
+
+- Thanks to [Gregoire Vella on Behance](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) for the Original design idea.
 
 ## Authors
 
