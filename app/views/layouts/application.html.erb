@@ -17,9 +17,6 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <div class="card d-flex align-self-center border-0" >
-      <% if user_signed_in?%>
-        <%= button_to 'Sign Out', "/users/sign_out", method: :delete %>
-      <% end %>
       <div class="card-body align-self-center border-3 border border-light rounded-3 my-3 pb-auto shadow-lg container-width" style="max-width: 575px">
         <nav class="navbar navbar-dark bg-primary bg-gradient shadow">
           <div class="container-fluid d-flex justify-content-space-between">
