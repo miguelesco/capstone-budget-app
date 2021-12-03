@@ -10,7 +10,6 @@ gem 'devise'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'font-awesome-rails'
 gem 'jwt'
-gem 'mailcatcher'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'rails-controller-testing'
 gem 'rspec-rails', '>= 4.0.1'
