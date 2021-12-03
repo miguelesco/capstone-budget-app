@@ -1,0 +1,11 @@
+example_id                            | status | run_time        |
+------------------------------------- | ------ | --------------- |
+./spec/features/entity_spec.rb[1:1:1] | passed | 0.45018 seconds |
+./spec/features/entity_spec.rb[1:1:2] | passed | 0.08936 seconds |
+./spec/features/group_spec.rb[1:1:1]  | passed | 0.5015 seconds  |
+./spec/features/group_spec.rb[1:1:2]  | passed | 2.06 seconds    |
+./spec/features/group_spec.rb[1:1:3]  | passed | 0.4524 seconds  |
+./spec/features/user_spec.rb[1:1]     | passed | 0.0385 seconds  |
+./spec/features/user_spec.rb[1:2]     | passed | 0.02227 seconds |
+./spec/features/user_spec.rb[1:3]     | passed | 0.03938 seconds |
+./spec/features/user_spec.rb[1:4]     | passed | 0.04126 seconds |
