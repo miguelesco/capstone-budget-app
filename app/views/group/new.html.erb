@@ -1,0 +1,17 @@
+<% provide(:title, "New Category") %>
+<div class="custom-width">
+  <%= form_with model: @group, url: '/group', method: :post, class: 'form' do |f| %>
+    <div class="mb-3">
+      <%= f.label :name, class: 'form-label pt-3' %>
+      <%= f.text_field :name, :required => true, class: 'form-control' %>
+    </div>
+    <div class="mb-3">
+      <%= f.label :icon, class: 'form-label' %>
+      <%= f.text_field :icon, :required => true, class: 'form-control' %>
+      <div class="form-text">TIP: Change 'abstract' for sports, city, cats, animals, food, people, nature, fashion. </div>
+    </div>  
+    <div class="bg-success d-flex justify-content-center">
+      <%= f.submit "Add Category", class: 'btn btn-success px-4 py-2 m-4 border-white border-2 rounded-3 fs-3' %>
+    </div>
+  <% end %>
+</div>
